@@ -108,31 +108,21 @@ h1{
   color: antiquewhite;
 }
 #hashvaa{
-  background-image: url(kleyezer.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color:white;
+  
+  color:black;
 
 }
 #tools{
-  background-image: url(tools.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  color:white;
+  
+  color:black;
 
 }
 #mikzoee{
-  background-image: url(mikzoee.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  color:white;
-
+  color:black;
 }
 #other{
-  background-image: url(other.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  color:white;
+  
+  color:black;
 
 }
 ul{
