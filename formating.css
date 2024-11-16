@@ -112,9 +112,9 @@ h1{
 }
 #tools{
   background-image: url(tools.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: none;
-  color:black;
+  color:white;
 
 }
 #mikzoee{
