@@ -17,7 +17,7 @@ body {
 }
 
 .rashi{
-  height: 930px;
+  height: auto;
   width: 90%;
   border:1px solid blue;
   margin-left:10px;
