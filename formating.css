@@ -46,13 +46,13 @@ section{
   width: 50%;
   height: 450px;
   border:1px solid blue;
-  box-shadow: 5px 5px 5px 5px gray;
+  
 }
 aside{
   width: 25%;
   height: 450px;
   border:1px solid blue;
-  box-shadow: 5px 5px 5px 5px gray;
+  
 }
 .links{
   width: 100%;
@@ -75,7 +75,6 @@ footer{
   height:90%;
   width: 23%;
   border:1px solid blue;
-  box-shadow: 5px 5px 5px 5px gray;
   text-align: right;
   z-index: 1;
   display: flex;
