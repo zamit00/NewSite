@@ -94,7 +94,7 @@ img{max-width: 40vw;height: auto;position:fixed;left: 50px;top:45%;border: none;
     .responsive{display: flex;flex-direction: column;position: fixed;top:20vh;transition: 0.5s;}
     .responsive a{position:relative;display:block;color:black;} 
     #mynav{width:30vw;text-align: right;background-color: lightgray;}
-    a:hover{background-color: grey;color:white}
+    a:hover{background-color: grey;color:white;border-bottom:white;}
   }
   @media screen  and (min-width:768px)   {
     a{cursor: pointer;}
