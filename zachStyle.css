@@ -22,7 +22,7 @@ nav {
   font-weight: bold;
   display: flex;
   align-items: center;
-  overflow: hidden;
+  overflow: visible;
   position: fixed;
   width: 100vw;
   top: 12vh;
