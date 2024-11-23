@@ -1,65 +1,34 @@
 <!DOCTYPE html>
-<html lang="he" >
+<html lang="he">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>אתר לדוגמה</title>
-    <link rel="stylesheet" href="formating.css">
-    <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>תפריט רספונסיבי</title>
+  <link rel="stylesheet" href="zachStyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="scriptrashi.js"></script>
 </head>
 <body dir="rtl">
-    <div class="rashi">
-        <!-- Header -->
-        <header>
-            <div class="logo">G<span>מלי</span></div>
-        </header>
-
-        <!-- Main Content -->
-
-        <main class="main">
-            <aside class="sidebar">
-                <h1>אקטואליה</h1>
-            </aside>
-            <section class="section">
-                <h1>אודות האתר</h1>
-            </section>
-
-            <!-- Aside -->
-            <aside class="sidebar">
-                <h1>השרותים שלנו</h1>
-                <ul>
-                    <li>תכנון וייעוץ פנסיוני </li>
-                    <li>שרותי פדיון גמל והשתלמות</li>
-                    <li>ייעוץ בנושא תהליכי תפעול</li>
-                    <li>הדרכות גמל והשתלמות</li>
-                    <li>ייעוץ ותכנון פרישה</li>
-                    <li> בניית כלים אוטומטיים</li>
-                </ul>
-            </aside>
-
-        </main>
-        <div class="links">
-            
-            <div class="kishur" id="mikzoee" >
-                <p class="plink" > מידע מקצועי גמל והשתלמות </p>
-            </div>
-            <div class="kishur" id="hashvaa">
-                <p class="plink" >השוואת נתונים בהתאם לנתוני הגמל-נט </p>
-            </div>
-            <div class="kishur" id="tools" >
-                <p class="plink" ><strong>כלי עזר: מחשבונים וסימולטורים</strong></p>
-            </div>
-            <div class="kishur" id="other">
-                <p class="plink" ><strong>אחר  </strong></p>
-            </div>
-
-        </div>
-        <!-- Footer -->
-        <footer>
-        </footer>
-        </div>
+    <header class="header">
+        <h1><span id="span"><strong>&#x05D2;&#x05B6;&#x05DE;&#x05B6;&#x05DC;&#x05B4;י</strong></span> <span id="makaf">-</span> אתר קופות הגמל וקרנות ההשתלמות</h1>
+    </header>
+  <nav id="nav">
+    <a href="javascript:void(0)" class="icon" onclick="hamburger()"><i class="fa fa-bars"></i></a>
+    <a href="#"><i class="fa fa-home"></i></a>
+    <div class="mynav" id="mynav">
+      <a href="#" class="anav" >מידע מקצועי</a>
+      <a href="#" class="anav" >נתוני השוואה קופות גמל</a>
+      <a href="#" class="anav" >מחשבונים וכלי עזר</a>
+      <a href="#" class="anav" >צור קשר</a> 
     </div>
+  </nav>
     
+  <main>
+   <aside>
+      <p style="text-align: center;font-size: 1.5rem;">אקטואליה</p>
+   </aside>
+    <img src="reka.jpg" alt="" class="reka" style="float:left;">
+  </main>
+  
 </body>
 </html>
