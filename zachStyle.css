@@ -100,5 +100,14 @@ img{max-width: 40vw;height: auto;position:fixed;left: 50px;top:45%;border: none;
     a{cursor: pointer;}
     a:hover{background-color: white;color:black}
   }
+ #header1 {
+  font-size: clamp(12px, 5vw, 36px); /* גודל הפונט משתנה בצורה דינמית */
+  white-space: nowrap;              /* מונע ירידת שורה */
+  overflow: hidden;                 /* מסתיר תוכן חורג */
+  text-align: center;               /* מרכז את הטקסט */
+}
+
+
+   
   
   
