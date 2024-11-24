@@ -99,7 +99,7 @@ nav a.icon{display: block;position: absolute;right:20px;font-size: 2.2rem;color:
     nav{font-size: 1.0rem;}
     .mynav{display: none;}
     img{display: none;}
-    .responsive{display: flex;flex-direction: column;position: fixed;top:22vh;transition: 0.5s;}
+    .responsive{display: none;flex-direction: column;position: fixed;top:22vh;transition: 0.5s;}
     .responsive a{position:relative;display:none;color:black; padding-top: 0;margin-top: 0;} 
     #mynav{width:30vw;text-align: right;background-color:white;}
    .anav:hover{background-color: white;color:black;border-bottom:lightgray;}
@@ -113,7 +113,7 @@ nav a.icon{display: block;position: absolute;right:20px;font-size: 2.2rem;color:
     a{cursor: pointer;}
     #mynav a{max-width: 250px;}
     .mikmenu{display: none;position: absolute; transition: 0.5s;right:-30px;top: 4vh;} 
-    
+    #mynav{display:none;}
   }
  #header1 {
   font-size: clamp(12px, 5vw, 36px); /* גודל הפונט משתנה בצורה דינמית */
