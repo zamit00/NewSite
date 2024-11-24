@@ -1,34 +1,69 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 html{font-size: 14px;position: relative;}
-header{
-  height:22vh;
-  background-color:#333;
-  color: white;
-  display: block;
-  flex-direction: column;
-  position: fixed;
-  top:0;
-  width: 100vw;
-  overflow: visible;
- 
-}
+header{height:20vh;background-color:#333;color: white;
+position: fixed;top:0;width: 100vw;overflow: visible;}
 body{width: 100%;margin: 0%;top: 0%;}
 #span{color: gold;}
-h1{ background-color:#333;}
-/* עיצוב בסיסי של ה-nav */
-nav {
-  display: flex;
-  flex-direction:row;
-  justify-content: right;
-  background-color:#333;
-  font-weight: bold;
-  bottom: 10px;
-  width: 100vw;
+h1{ background-color:#333;text-align: center;margin-top: 4vh;}
+ul{color: black;list-style-type: none;}
+#dinamiknav{display: flex;flex-direction: row;}
+#dinamiknav a{color: white;text-decoration: none;}
+#home{position: fixed;top:14vh;left:10px;color:white ;}
+
+
+@media screen  and (max-width:320px)  {
   
+  h1{ font-size: 3vh;}
+}
+@media screen  and (min-width:320px) and (max-width:400px)  {  
+  
+  h1{ font-size: 3vh;}
+}
+@media screen  and (min-width:400px) and (max-width:576px)  { 
+  
+  h1{ font-size: 3.2vh;}
+ }
+@media screen  and (min-width:576px) and (max-width:768px)  { 
+  
+  h1{ font-size: 4vh;}
+ }
+@media screen  and (min-width:768px) and (max-width:992px)  {
+  #icon{display:none;}
+  #home{font-size: 4vh;padding: 5px;position: fixed;left:5px;top:15vh;}
+  h1{ font-size: 4vh;}
+  .anav{color: white; padding:5px ;text-decoration: none;display: inline-block;
+    text-align: right; direction: rtl;font-size: 2vh; margin-top: 4vh;}
+  .anav ul{text-align: right;}
+  
+  }	
+@media screen  and (min-width:992px) and (max-width:1024px)  {  }
+@media screen  and (min-width:1024px)   {  }
+  
+
+@media screen  and (max-width:768px) {
+  #dinamiknav{display: flex;flex-direction: column;margin-top: 3vh;}
+  #dinamiknav .anav{color: black;} 
+  #icon{font-size: 4vh;padding: 5px;color:white ;position: fixed;right:5px;top:15vh;}
+  #home{font-size: 4vh;padding: 5px;position: fixed;left:5px;top:15vh;}
+
+}
+
+
+
+/* 
+nav {
+display: flex;
+flex-direction:row;
+justify-content: right;
+background-color:#333;
+font-weight: bold;
+bottom: 10px;
+width: 100vw;
+
 }
 .home{position: absolute; left:10px;}
 
@@ -42,44 +77,16 @@ h1{text-align: center; max-height: 8vh;}
 .machshmenu, .mikmenu{display: none;}
 
 
-@media screen  and (max-width:320px)  {
-	nav{font-size: 1rem;}	h1{font-size: 1.2rem;}	#span{font-size: 1.3rem;display: block;} 
-}
-
-@media screen  and (min-width:400px) and (max-width:400px)  {
-	nav{font-size: 1.2rem;}	h1{font-size: 1.3rem;}	#span{font-size: 1.5rem;display: block;} 
-	
-}
-@media screen  and (min-width:400px) and (max-width:576px)  {
-	nav{font-size: 1.3rem;}	h1{font-size: 1.4rem;}	#span{font-size: 1.6rem;display: block;} 
-}
-@media screen  and (min-width:576px) and (max-width:768px)  {
-	nav{font-size: 1.5rem;}	h1{font-size: 1.7rem;}	#span{font-size: 1.9rem;display: block;} 
-	
-}
-@media screen  and (min-width:768px) and (max-width:992px)  {
-	nav{font-size: 1.7rem;}	h1{font-size: 2rem;}	#span{font-size: 2.4rem;display: inline-block;}
-	nav a{padding: 5px 15px}	
-}
-@media screen  and (min-width:992px) and (max-width:1024px)  {
-	nav{font-size: 2.2rem;}	h1{font-size: 2.8rem;}	#span{font-size: 3.0rem;display: inline-block;}
-	nav a{padding: 5px 25px}
-}
-@media screen  and (min-width:1024px)   {
-	nav{font-size: 2.4rem;}	h1{font-size: 3.2rem;}	#span{font-size: 3.5rem;display: inline-block;}
-	nav a{padding: 5px 30px}
-}
 
 
 @media screen  and (max-width:768px)   {
-	#makaf{display: none;}
-	.anav{display: none;}
-	.icon{display:block;}
+#makaf{display: none;}
+.anav{display: none;}
+.icon{display:block;}
 }
 @media screen  and (min-width:768px)   {
-	#makaf{display: inline-block;}
-	.icon{display:none;}
-	.anav{display: flex;} 
+#makaf{display: inline-block;}
+.icon{display:none;}
+.anav{display: flex;} 
 }
- 
- 
+*/
