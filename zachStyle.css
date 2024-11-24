@@ -33,7 +33,7 @@ nav a:hover{color: black;background-color:white;}
 
 nav ul{list-style-type: none;margin:0;padding:0;text-align: right;direction: rtl;}
 nav ul li{padding:5px 0;}
-h1{text-align: center;}
+h1{text-align: center; max-height: 8vh;}
 .machshmenu, .mikmenu{display: none;}
 
 
