@@ -29,8 +29,8 @@ nav {
   height: 10vh;
 }
 
-.home{display: block;position: absolute;left:20px;font-size: 6vh;color:white;}
-  
+.home{display: block;position: absolute;left:20px;font-size: 4vh;color:white;}
+
 img{max-width: 40vw;height: auto;position:fixed;left: 50px;top:45%;border: none;}
 
 @media screen  and (max-width:440px)  {
