@@ -58,7 +58,7 @@ function ulop(element) {
         }
     }
 }
-function showMenu(element) {
+/*function showMenu(element) {
     const ul = element.querySelector('ul');
     if (ul && (ul.style.display === 'none' || ul.style.display === '')) {
         if (window.innerWidth > 767) {
@@ -96,4 +96,4 @@ function showMenuOnHover(element) {
     link.addEventListener('mouseenter', () => showMenuOnHover(link));
     link.addEventListener('mouseleave', () => hideMenuOnLeave(link));
   });
-   
+   */
