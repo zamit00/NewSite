@@ -1,6 +1,6 @@
 
 //פונקציה לפתיחה וסגירה של המבורגר//
-
+window.onload=function(){handleLargeScreen();};
 
 window.addEventListener('resize', checkScreenSize);
 checkScreenSize();
