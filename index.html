@@ -16,10 +16,24 @@
     <a href="javascript:void(0)" class="icon" onclick="hamburger()"><i class="fa fa-bars"></i></a>
     <a href="#" class="home" onclick="homeclick()"><i class="fa fa-home"></i></a>
     <div class="mynav" id="mynav">
-      <a href="#" class="anav" >מידע מקצועי</a>
-      <a href="#" class="anav" >נתוני קופות גמל</a>
-      <a href="#" class="anav" >מחשבונים וכלי עזר</a>
-      <a href="#" class="anav" >צור קשר</a>
+      <a href="#" class="anav" onclick="ulop(this)" onmouseenter="showMenu(this)" onmouseleave="hideMenu(this)">מידע מקצועי
+        <ul class="mikmenu">
+            <li>קרנות השתלמות</li>
+            <li>קופות גמל להשקעה</li>
+            <li>קופות גמל</li>
+            <li>קופת גמל חסכון לילד</li>
+            <li>קופות גמל אחרות</li>
+        </ul>
+      </a>
+      <a href="#" class="anav" onclick="ulop(this)" onmouseenter="showMenu(this)" onmouseleave="hideMenu(this)">נתוני קופות גמל</a>
+      <a href="#" class="anav" onclick="ulop(this)" onmouseenter="showMenu(this)" onmouseleave="hideMenu(this)">מחשבונים וכלי עזר
+        <ul class="machshmenu" >
+            <li>מחשבון ריבית דריבית</li>
+            <li>מחשבון הצמדה למדד</li>
+            <li>סימולטור הלוואות</li>
+        </ul>
+      </a>
+      <a href="#" class="anav" onclick="ulop(this)" onmouseenter="showMenu(this)" onmouseleave="hideMenu(this)">צור קשר</a>
       
     </div>
   </nav>
