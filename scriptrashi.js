@@ -8,6 +8,7 @@ function checkScreenSize() {
     handleLargeScreen(); 
   } 
  function handleLargeScreen() {
+	 alert(window.innerWidth);
 	const alla = document.querySelectorAll('a.anav');
 	alla.forEach(function(menu) {
 	if(window.innerWidth>768){
