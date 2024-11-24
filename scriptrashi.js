@@ -11,12 +11,12 @@ function checkScreenSize() {
 	const alla = document.querySelectorAll('a.anav');
 	alla.forEach(function(menu) {
 	if(window.innerWidth>768){
-		if (menu.id!=="icon" && menu.id!=="home"){menu.display= "inline-block"}   
-	   else{if (menu.id==="icon"){menu.display= "none"}  }
+		if (menu.id!=="icon" && menu.id!=="home"){menu.style.display= "inline-block"}   
+	   else{if (menu.id==="icon"){menu.style.display= "none"}  }
 	   }
 	   
-	else{ if (menu.id ==="icon"){menu.display= "inline-block"}
-			else{if (menu.id!=="home"){menu.display= "none"}  }
+	else{ if (menu.id ==="icon"){menu.style.display= "inline-block"}
+			else{if (menu.id!=="home"){menu.style.display= "none"}  }
 		}
  });}
   
