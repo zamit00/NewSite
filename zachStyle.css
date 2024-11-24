@@ -37,7 +37,7 @@ h1{text-align: center;}
 .machshmenu, .mikmenu{display: none;}
 
 
-@media screen  and (max-width:400px)  {
+@media screen  and (max-width:320px)  {
 	nav{font-size: 1.6rem;}	h1{font-size: 1.4rem;}	#span{font-size: 2rem;display: block;} 
 }
 
