@@ -3,54 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GEMEL-LY</title>
+  <title><title>GEMEL-LY</title></title>
   <link rel="stylesheet" href="zachStyle.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="scriptrashi.js"></script> 
 </head>
 <body dir="rtl">
-  <header class="header">
-    <h1 id="header1"><span id="span"><strong>&#x05D2;&#x05B6;&#x05DE;&#x05B6;&#x05DC;&#x05B4;י</strong></span><br>קופות גמל וקרנות השתלמות</h1>
-    
-    <nav id="nav">
-      
-      <!-- תפריט נפתח -->
-      <div id="dinamiknav" class="dinamiknav">
-        <a href="javascript:void(0)" class="icon" id="icon" onclick="hamburger()"><i class="fa fa-bars"></i></a>
-        <a href="#" class="anav" id="mik" onclick="ulop(this)">
-          <span>מידע מקצועי</span>
-          <ul class="mikmenu">
-            <li>קרנות השתלמות</li>
-            <li>קופות גמל להשקעה</li>
-            <li>לקופות גמל לקצבה</li>
-            <li>קופת גמל חסכון לילד</li>
-            <li>קופות גמל אחרות</li>
-          </ul>
-        </a>
-        
-        <a href="#" class="anav" onclick="ulop(this)">נתוני קופות גמל</a>
-        <a href="#" class="anav" onclick="ulop(this)">
-          מחשבונים וכלי עזר
-          <ul class="machshmenu">
-            <li>מחשבון ריבית דריבית</li>
-            <li>מחשבון הצמדה למדד</li>
-            <li>סימולטור הלוואות</li>
-          </ul>
-        </a>
-        <a href="#" class="anav" onclick="ulop(this)">צור קשר</a>
-      </div>
-    </nav> 
-      <!-- כפתור בית -->
-      <a href="#" class="home" id="home" onclick="homeclick()">
-        <i class="fa fa-home"></i>
-      </a>
-    
-  </header>
-
-  <main>
-    <!-- תוכן נוסף -->
-  </main>
-
-  
+    <header class="header">
+        <h1 id="gemely"><strong>&#x05D2;&#x05B6;&#x05DE;&#x05B6;&#x05DC;&#x05B4;י</strong></h1>
+		<h1 id='header1'>קופות גמל וקרנות השתלמות</h1>    
+		<nav id="nav">
+			
+			<label class="icon" id= "icon" onclick="hamburger()"><i class="fa fa-bars"></i></label>
+			<label class="home" id="home" onclick="homeclick()"><i class="fa fa-home"></i></label>
+			<div class="tafrit" id="tafrit">
+				<label  class="anav lbl" id="mik" onclick="uloptafrit('mikmenu')"><span>מידע מקצועי</span></label>
+				<ul class="mikmenu" id="mikmenu">
+					<li>קרנות השתלמות</li>
+					<li>קופות גמל להשקעה</li>
+					<li> לקופות גמל לקצבה</li>
+					<li>קופת גמל חסכון לילד</li>
+					<li>קופות גמל אחרות</li>
+				</ul>
+				<label  class="anav lbl" onclick="uloptafrit('netu')" >נתוני קופות גמל</label>
+				<ul class="netu" id="netu"></ul>
+				
+				<label  class="anav lbl" id="mach" onclick="uloptafrit('machshmenu')">מחשבונים וכלי עזר</label>
+				<ul class="machshmenu" id="machshmenu">
+					<li>מחשבון ריבית דריבית</li>
+					<li>מחשבון הצמדה למדד</li>
+					<li>סימולטור הלוואות</li>
+				</ul>
+			
+				<label class="anav lbl" onclick="uloptafrit('zor')" >צור קשר</label>
+				<ul class="zor" id="zor"></ul>
+			</div>
+		</nav>
+	</header>  
+	<main>
+      <!-- <img src="reka.jpg" alt="" class="reka" style="float:left;"> -->
+	</main>
+  <script>
+	function checkScreenSize() {
+    if(window.innerWidth >390 && window.innerWidth <410 ){console.log(window.innerWidth);}
+    if(window.innerWidth >570 && window.innerWidth <580 ){console.log(window.innerWidth);}
+    if(window.innerWidth >763 && window.innerWidth <772 ){console.log(window.innerWidth);}
+	if(window.innerWidth >990 && window.innerWidth <995 ){console.log(window.innerWidth);}
+    if(window.innerWidth >1020 && window.innerWidth <1028 ){console.log(window.innerWidth);}
+  } 
+  window.addEventListener('resize', checkScreenSize);
+  </script>
 </body>
 </html>
