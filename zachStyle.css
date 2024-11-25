@@ -12,11 +12,11 @@ ul{margin:0;padding:0;display:none;cursor:pointer;list-style-type: none;}
 ul li{margin-bottom:5px;}
 .anav{color: green;margin-bottom:6px;}
 #tafrit{display: none; flex-direction:column;}
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 800px){
 	nav{position:fixed; top:20vh;right:10px;}
 	ul{z-index:100;}
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 800px){
 	#icon{display: none;}
 	#tafrit{display: flex;flex-direction:row;justify-content:space-between;max-width:80vw;margin-right:10px;}
 	#tafrit label{color:white;font-size:4vh;margin-bottom:5px;}
