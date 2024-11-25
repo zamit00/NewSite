@@ -12,17 +12,17 @@ ul{margin:0;padding:0;display:none;cursor:pointer;list-style-type: none;}
 ul li{margin-bottom:5px;}
 .anav{color: green;margin-bottom:6px;}
 #tafrit{display: none; flex-direction:column;}
-@media only screen and (max-width: 400px){
-   nav{position:fixed; top:20vh;right:10px;}
-   #header1{font-size: 1.2rem;white-space:nowrap;}
-	
-}
 
-@media only screen and (min-width: 400px) and (max-width: 800px) {
-	#header1{font-size: clamp(18px, 6vw, 25px);white-space:nowrap;}
 
-	nav{position:fixed; top:20vh;right:10px;}
-	ul{z-index:100;}
+@media only screen and (max-width: 800px) {
+	nav{position:fixed; top:20vh;right:0px;}
+	.anav{z-index:100;width: 100vw;background-color: rgb(209, 203, 203);color: black;padding: 0;
+     margin: 0;height: 5vh;font-size: 1.7rem ;text-align: center;border-bottom: 1px solid gray;}
+     #nav .anav:hover {background-color: white !important;color: black !important;}
+     .anav .li :hover{background-color: black !important;color: white !important;}
+    
+  .li{display: flex;align-items: center;justify-content: center;width: 100vw;height: 4vh;font-size: 1.7rem ;}
+  
 }
 @media only screen and (min-width: 800px){
 	#icon{display: none;}
@@ -30,6 +30,12 @@ ul li{margin-bottom:5px;}
 	#tafrit label{color:white;font-size:4vh;margin-bottom:5px;}
 	.anav ul{position:absolute;left:0;display:none; }
 	header{height: 22vh;}
-	
-
+	.lbl :hover {background-color: white;color: black;}
+  #nav .anav:hover {background-color: white !important;color: black !important; }
+  .anav .li:hover{background-color: black !important;color: white !important;}
 }
+@media only screen and (max-width: 400px)  {#header1{font-size: clamp(20px, 6vw, 25px);white-space:nowrap;width: 100%;}}
+@media only screen and (min-width: 400px) and (max-width: 600px) {#header1{font-size: clamp(22px, 7vw, 25px);white-space:nowrap;width: 100%;}}
+@media only screen and (min-width: 400px) and (max-width: 800px) {#header1{font-size: clamp(26px, 9vw, 30px);white-space:nowrap;width: 100%;}}
+
+
