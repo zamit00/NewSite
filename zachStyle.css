@@ -12,7 +12,15 @@ ul{margin:0;padding:0;display:none;cursor:pointer;list-style-type: none;}
 ul li{margin-bottom:5px;}
 .anav{color: green;margin-bottom:6px;}
 #tafrit{display: none; flex-direction:column;}
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 400px){
+   nav{position:fixed; top:20vh;right:10px;}
+   #header1{font-size: clamp(14px, 5vw, 25px);white-space:nowrap;}
+	
+}
+
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+	#header1{font-size: clamp(18px, 6vw, 25px);white-space:nowrap;}
+
 	nav{position:fixed; top:20vh;right:10px;}
 	ul{z-index:100;}
 }
