@@ -47,12 +47,12 @@ ul{color: black;list-style-type: none;}
 @media screen  and (max-width:768px) {
   #dinamiknav{display: flex;flex-direction: column;margin-top: 3vh;}
   #dinamiknav .anav{color: black;} 
-  #icon{font-size: 4vh;padding: 5px;color:white ;position: fixed;right:5px;top:15vh;}
+  #icon{font-size: 4vh;padding: 5px;color:white ;position: fixed;right:5px;top:15vh;display: block;}
   #home{font-size: 4vh;padding: 5px;position: fixed;left:5px;top:15vh;}
 
 }
 @media screen  and (min-width:768px) {
-  #icon{font-size: 4vh;padding: 5px;color:white ;position: fixed;right:5px;top:15vh;}
+  #icon{display: none;}
   #home{font-size: 4vh;padding: 5px;position: fixed;left:5px;top:15vh;}
 
 }
