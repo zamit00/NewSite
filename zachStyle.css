@@ -14,7 +14,7 @@ ul li{margin-bottom:5px;}
 #tafrit{display: none; flex-direction:column;}
 @media only screen and (max-width: 400px){
    nav{position:fixed; top:20vh;right:10px;}
-   #header1{font-size: clamp(14px, 5vw, 25px);white-space:nowrap;}
+   #header1{font-size: 1.2rem;white-space:nowrap;}
 	
 }
 
