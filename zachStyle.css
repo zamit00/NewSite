@@ -18,7 +18,7 @@ ul li{margin-bottom:5px;}
 	nav{position:fixed; top:20vh;right:0px;}
 	.anav{z-index:100;width: 100vw;background-color: rgb(209, 203, 203);color: black;padding: 0;
      margin: 0;height: 5vh;font-size: 1.7rem ;text-align: center;border-bottom: 1px solid gray;}
-     #nav .anav:hover {background-color: white !important;color: black !important;}
+     #nav .anav:hover {background-color: aliceblue !important;color: black !important;}
      .anav .li :hover{background-color: black !important;color: white !important;}
     
   .li{display: flex;align-items: center;justify-content: center;width: 100vw;height: 4vh;font-size: 1.7rem ;}
@@ -31,7 +31,7 @@ ul li{margin-bottom:5px;}
 	.anav ul{position:absolute;left:0;display:none; }
 	header{height: 22vh;}
 	.lbl :hover {background-color: white;color: black;}
-  #nav .anav:hover {background-color: white !important;color: black !important; }
+  #nav .anav:hover {background-color: aliceblue !important;color: black !important; }
   .anav .li:hover{background-color: black !important;color: white !important;}
 }
 @media only screen and (max-width: 400px)  {#header1{font-size: clamp(20px, 6vw, 25px);white-space:nowrap;width: 100%;}}
