@@ -30,9 +30,9 @@ ul li{margin-bottom:5px;}
 	#tafrit label{color:white;font-size:4vh;margin-bottom:5px;}
 	.anav ul{position:absolute;left:0;display:none; }
 	header{height: 22vh;}
-	.lbl :hover {background-color: white;color: black;}
-  #nav .anav:hover {background-color: aliceblue !important;color: black !important; }
-  .anav .li:hover{background-color: black !important;color: white !important;}
+ #nav .anav:hover,.lbl :hover {background-color: white !important;color: black !important;}
+/*  #nav .anav:hover {background-color:grey !important;color:white !important; }*/
+  #nav .anav .li:hover{background-color: black !important;color: white !important;}
 }
 @media only screen and (max-width: 400px)  {#header1{font-size: clamp(20px, 6vw, 25px);white-space:nowrap;width: 100%;}}
 @media only screen and (min-width: 400px) and (max-width: 600px) {#header1{font-size: clamp(22px, 7vw, 25px);white-space:nowrap;width: 100%;}}
