@@ -11,7 +11,7 @@ header{position: fixed; height:20vh; top:0; width:99.5vw; margin:0; background-c
 ul{margin:0;padding:0;display:none;cursor:pointer;list-style-type: none;}
 ul li{margin-bottom:5px;}
 .anav{color: green;margin-bottom:6px;}
-#tafrit{display: none; flex-direction:column; transition:height 0.3s ease-in-out; max-height:0px;}
+#tafrit{display: none; flex-direction:column; transition:max-height 0.3s ease-in-out; max-height:0px;}
 
 
 @media only screen and (max-width: 800px) {
