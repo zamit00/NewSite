@@ -26,7 +26,7 @@ ul li{margin-bottom:5px;}
 }
 @media only screen and (min-width: 800px){
 	#icon{display: none;}
-	#tafrit{display: flex;flex-direction:row;justify-content:space-between;max-width:80vw;margin-right:10px;}
+	#tafrit{display: flex;flex-direction:row;justify-content:space-between;max-width:100vw;margin-right:10px;}
 	#tafrit label{color:white;font-size:4vh;margin-bottom:5px;}
 	.anav ul{position:absolute;left:0;display:none; }
 	header{height: 22vh;}
