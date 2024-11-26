@@ -19,7 +19,7 @@ ul li{margin-bottom:5px;}
 	.anav{z-index:100;width: 100vw;background-color: rgb(209, 203, 203);color: black;padding: 0;
      margin: 0;height: 5vh;font-size: 1.7rem ;text-align: center;border-bottom: 1px solid gray;}
      #nav .anav:hover {background-color: lightgreen !important;color: black !important;}
-     .anav .li :hover{background-color: black !important;color: white !important;}
+      .li :hover{background-color: black !important;color: white !important;}
     
   .li{display: flex;align-items: center;justify-content: center;width: 100vw;height: 4vh;font-size: 1.7rem ;}
   
