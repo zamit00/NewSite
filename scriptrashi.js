@@ -12,11 +12,11 @@
 			var tafrit=document.getElementById("tafrit");
 			
 			if (tafrit.style.display==="" || tafrit.style.display==="none") {				
-				tafrit.style.display="flex";
+				tafrit.style.display="flex";tafrit.style.maxHeight="100vh";
 				
 				}
 			else{
-				tafrit.style.display="none"; 
+				tafrit.style.display="none"; tafrit.style.maxHeight="0px";
 				
 				}
 							
