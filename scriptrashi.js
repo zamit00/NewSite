@@ -6,18 +6,18 @@
 		
 			// לולאה שסוגרת את כל התפריטים האחרים		
 			allMenus.forEach(menu => {
-			menu.style.display = 'none';menu.style.transform="translateY(-100%)";});
+			menu.style.display = 'none';});
 			
 			
 			var tafrit=document.getElementById("tafrit");
 			
 			if (tafrit.style.display==="" || tafrit.style.display==="none") {				
 				tafrit.style.display="flex";
-				tafrit.style.transform="translateY(0)";
+				
 				}
 			else{
 				tafrit.style.display="none"; 
-				tafrit.style.transform="translateY(-100%)";
+				
 				}
 							
 	}
