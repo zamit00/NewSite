@@ -65,5 +65,5 @@ nav{height: 22vh;position: fixed;top: 0%;margin: 0%;background-color: #333;}
       background-color: lightgray;border-bottom: 1px solid black;color: black;}  
       .dropdown-content a:hover, .dropdown-contenta a:hover {text-align: right; }
   }
-  @media screen and (max-width: 300px) {
+  @media screen and (max-width: 400px) {
     #gemely,#header1{font-size: 4vh;}}
