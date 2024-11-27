@@ -48,8 +48,8 @@ nav{height: 22vh;position: fixed;top: 0%;margin: 0%;background-color: #333;}
     .icon {display: block;margin-right:5px ;text-align: center;min-width: 50px;}
     .topnav {display: flex;flex-direction: column;}
     a.active{position: fixed;left:5px;margin-top: 0;}
-    .topnav  .dropdown{background-color: aliceblue;color: black;
-      border-bottom: 1px solid lightgray;display: flex;flex-direction: column;
+    .topnav  .dropdown{background-color: lightgray;color: black;
+      border-bottom: 1px solid lightgoldenrodyellow;display: flex;flex-direction: column;
       align-items: baseline;box-sizing: border-box;}
     .icon:hover, .active:hover{background-color: white;color: black;}
       
