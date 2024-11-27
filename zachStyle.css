@@ -43,27 +43,28 @@ nav{height: 22vh;position: fixed;top: 0%;margin: 0%;background-color: #333;}
     outline: none;justify-content: center;width: 100vw;height: 10vh;
     align-items: center;font-size: 5vh;}
     .dropdown-contenta a{width: 100vw;height: 6vh;z-index: 100;
-      font-size: 4vh;padding: 5px 0px;text-align: center;color:black;}
+      font-size: 4vh;padding: 5px 0px;text-align: center;color:black;border-bottom: 1px solid lightgoldenrodyellow;}
     .active {display: block;margin-left:5px ;min-width: 50px;text-align: center;}
     .icon {display: block;margin-right:5px ;text-align: center;min-width: 50px;}
     .topnav {display: flex;flex-direction: column;}
     a.active{position: fixed;left:5px;margin-top: 0;}
-    .topnav  .dropdown{background-color: lightgray;color: black;
-      border-bottom: 1px solid lightgoldenrodyellow;display: flex;flex-direction: column;
-      align-items: baseline;box-sizing: border-box;}
+    .topnav  .dropdown{background-color: aliceblue;color: black;
+      display: flex;flex-direction: column;
+      align-items: baseline;box-sizing: border-box;border-bottom: 1px solid lightgray;}
     .icon:hover, .active:hover{background-color: white;color: black;}
-      
+    
   } 
   @media screen and (min-width: 769px) {
    .icon {display: none ;}
    .active{position: fixed;left:10px;top:16vh;}
     #btn1{margin-right: 5px;}
     .dropbtn,.dropbtna{background-color: inherit !important;color: white;
-      margin-top: -4px;min-width: 12vw;font-size: 20px;}
+      margin-top: 0px;min-width: 12vw;font-size: 20px;}
     #myTopnav{max-width: 90vw;}
     .dropdown-content a, .dropdown-contenta a {width: 14vw;
       background-color: lightgray;border-bottom: 1px solid black;color: black;}  
       .dropdown-content a:hover, .dropdown-contenta a:hover {text-align: right; }
+      .topnav{border-bottom: #333;}
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 300px) {
     #gemely,#header1{font-size: 4vh;}}
