@@ -12,6 +12,7 @@ nav{height: 22vh;position: fixed;top: 0%;margin: 0%;background-color: #333;}
 .dropbtn{display: flex;max-width: 20vw;}
 .dropdown-content {display: none;}
 .dropdown-contenta {display: flex;flex-direction: column;align-items: center;}
+
 .dropbtn, .dropbtna {    
   border: none;
   outline: none;
@@ -22,38 +23,47 @@ nav{height: 22vh;position: fixed;top: 0%;margin: 0%;background-color: #333;}
   
   .active {margin-left:5px ;max-width: 5vw;}
   .icon {margin-right:5px ;max-width: 5vw;}
-  .icon:hover, .active:hover{color: rgb(32, 210, 35);}
-  .dropbtn:hover,.dropbtna:hover{color: rgb(32, 210, 35);}
+  .icon:hover, .active:hover{color: gold;}
+  .dropbtn:hover,.dropbtna:hover{color:gold;}
   .dropdown-content a, .dropdown-contenta a {
     padding: 12px 16px;
     text-decoration: none;
     
   }
-  .dropdown-content a:hover, .dropdown-contenta a:hover {background-color: black;color: white;}
+  .dropdown-content a:hover, .dropdown-contenta a:hover {background-color: black;
+    color: gold;text-align: center;}
   
   @media screen and (max-width: 768px) {
+    #gemely,#header1{font-size: 5vh;}
+    
+    .dropbtna:hover{color: white;background-color: black;}
+    #btn4 a{text-align: center;}
     .topnav  .dropdown .dropbtn {display: none;}
-    .topnav  .dropdown .dropbtna {display: block;background-color: inherit;border: none;
-    outline: none;}
-    .active {display: block;margin-left:5px ;}
-    .icon {display: block;margin-right:5px ;text-align: center;}
+    .dropbtna {display: flex;background-color: inherit;border: none;
+    outline: none;justify-content: center;width: 100vw;height: 10vh;
+    align-items: center;font-size: 5vh;}
+    .dropdown-contenta a{width: 100vw;height: 6vh;z-index: 100;
+      font-size: 4vh;padding: 5px 0px;text-align: center;color:black;}
+    .active {display: block;margin-left:5px ;min-width: 50px;text-align: center;}
+    .icon {display: block;margin-right:5px ;text-align: center;min-width: 50px;}
     .topnav {display: flex;flex-direction: column;}
     a.active{position: fixed;left:5px;margin-top: 0;}
     .topnav  .dropdown{background-color: aliceblue;color: black;
       border-bottom: 1px solid lightgray;display: flex;flex-direction: column;
       align-items: baseline;box-sizing: border-box;}
-      .icon:hover, .active:hover{background-color: white;color: black;}
-      
+    .icon:hover, .active:hover{background-color: white;color: black;}
       
   } 
   @media screen and (min-width: 769px) {
    .icon {display: none ;}
-   .active{position: fixed;left:10px;top:15.5vh;}
+   .active{position: fixed;left:10px;top:16vh;}
     #btn1{margin-right: 5px;}
     .dropbtn,.dropbtna{background-color: inherit !important;color: white;
       margin-top: 5px;min-width: 12vw;}
     #myTopnav{max-width: 80vw;}
-    .dropdown-content a, .dropdown-contenta a {min-width: 12vw;
-      background-color: lightgray;border-bottom: 1px solid black;}
-      
+    .dropdown-content a, .dropdown-contenta a {width: 14vw;
+      background-color: lightgray;border-bottom: 1px solid black;color: black;}  
+      .dropdown-content a:hover, .dropdown-contenta a:hover {text-align: right; }
   }
+  @media screen and (max-width: 300px) {
+    #gemely,#header1{font-size: 4vh;}}
