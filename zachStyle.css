@@ -34,8 +34,8 @@ nav{height: 22vh;position: fixed;top: 0%;margin: 0%;background-color: #333;}
     color: gold;text-align: center;}
   
   @media screen and (max-width: 768px) {
-    #gemely,#header1{font-size: 3.5vh;}
-    
+    #gemely{font-size: 20pxh;}
+    #header1{font-size: 16px;}
     .dropbtna:hover{color: white;background-color: black;}
     #btn4 a{text-align: center;}
     .topnav  .dropdown .dropbtn {display: none;}
