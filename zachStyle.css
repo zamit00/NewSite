@@ -34,8 +34,8 @@ nav{height: 22vh;position: fixed;top: 0%;margin: 0%;background-color: #333;}
     color: gold;text-align: center;}
   
   @media screen and (max-width: 768px) {
-    #gemely{font-size: 20pxh;}
-    #header1{font-size: 16px;}
+    #gemely,#header1{font-size: 5vh;}
+    
     .dropbtna:hover{color: white;background-color: black;}
     #btn4 a{text-align: center;}
     .topnav  .dropdown .dropbtn {display: none;}
@@ -44,15 +44,15 @@ nav{height: 22vh;position: fixed;top: 0%;margin: 0%;background-color: #333;}
     align-items: center;font-size: 5vh;}
     .dropdown-contenta a{width: 100vw;height: 6vh;z-index: 100;
       font-size: 4vh;padding: 5px 0px;text-align: center;color:black;border-bottom: 1px solid lightgoldenrodyellow;}
-    .active {display: block;margin-left:5px ;min-width: 50px;text-align: center;}
-    .icon {display: block;margin-right:5px ;text-align: center;min-width: 50px;}
+    .active {display: block;margin-left:5px ;min-width: 30px;text-align: center;}
+    .icon {display: block;margin-right:5px ;text-align: center;min-width: 30px;}
     .topnav {display: flex;flex-direction: column;}
     a.active{position: fixed;left:5px;margin-top: 0;}
     .topnav  .dropdown{background-color: aliceblue;color: black;
       display: flex;flex-direction: column;
-      align-items: baseline;box-sizing: border-box;border-bottom: 1px solid lightgray;}
+      align-items: baseline;box-sizing: border-box;}
     .icon:hover, .active:hover{background-color: white;color: black;}
-    
+    .dropdown{border-bottom: 1px solid #333;}
   } 
   @media screen and (min-width: 769px) {
    .icon {display: none ;}
@@ -66,4 +66,5 @@ nav{height: 22vh;position: fixed;top: 0%;margin: 0%;background-color: #333;}
       .dropdown-content a:hover, .dropdown-contenta a:hover {text-align: right; }
       .topnav{border-bottom: #333;}
   }
- 
+  @media screen and (max-width: 300px) {
+    #gemely,#header1{font-size: 4vh;}}
