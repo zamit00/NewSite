@@ -1,3 +1,16 @@
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+    }
+    
+
+
+/*
+
 function myFunction(x) {
   for(let i=1;i<=3;i++){
     var taf= document.getElementById(`dropdown-content${i}`);
@@ -40,5 +53,5 @@ function myFunction(x) {
             
     }
   }
-      
+  */    
  
