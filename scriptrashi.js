@@ -13,7 +13,7 @@ function myfun(x) {
 if (x.id.icludes(1)){var i='1';}
 if (x.id.icludes(2)){var i='2';}
 if (x.id.icludes(3)){var i='3';}
-menu=document.getElementById(`drp${i});
+menu=document.getElementById(`drp${i}`);
 
   if(menu.className ==='dropdown-content'){
     menu.className='dropdown-content drp';}
