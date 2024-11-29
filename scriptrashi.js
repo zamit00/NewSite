@@ -6,7 +6,7 @@ function myFunction() {
       x.className = "topnav";
     }
     }
-
+/*
        
 function myFun(x) {
 
@@ -32,7 +32,7 @@ const menu = container.querySelector('dropdown-content');
     
   }
   } 
-  /*
+  
   function humburger(){
     var mynav= document.getElementById("myTopnav");
     for(let i=1;i<=4;i++){
