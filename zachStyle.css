@@ -3,7 +3,7 @@ body {margin:0;padding: 0%;font-family:Arial;box-sizing: border-box;}
 #header1{position: fixed; top:6vh;background-color: #333;color:white;
     font-size:4vh;padding:0.5vh 0%;margin:0% 0% 5px 0%;
     white-space:nowrap;font-weight: bold; border: none;text-align: center;width: 100vw;}
-#gemely{color:gold;font-size:5vh;padding: 0% ;margin:0;position: fixed; top: 0.5vh;
+#gemely{color:gold;font-size:4.5vh;padding: 0% ;margin:0;position: fixed; top: 0.5vh;
      ;background-color: #333;text-align: center;width: 100vw;}
 .header{background-color: #333;width: 100vw;height: 12vh;position: sticky;top: 0;margin: 0;padding: 0;}
 .topnav{
