@@ -6,16 +6,16 @@ function myFunction() {
       x.className = "topnav";
     }
     }
-    
 
+       
+function myFun(x) {
 
-/*
-
-function myFunction(x) {
-  for(let i=1;i<=3;i++){
-    var taf= document.getElementById(`dropdown-content${i}`);
-    
-    if(x.id.includes(i)){
+const container =  x.parentElement; // מוצא את הקונטיינר של הכפתור
+const menu = container.querySelector('dropdown-content');
+  if(menu.style.display===none|| menu.style.display===){
+    menu.style.display='block';}
+   else{menu.style.display="none"}
+    }
       
       if (taf.className === "dropdown-content") {
         taf.className='dropdown-contenta';
@@ -32,7 +32,7 @@ function myFunction(x) {
     
   }
   } 
-  
+  /*
   function humburger(){
     var mynav= document.getElementById("myTopnav");
     for(let i=1;i<=4;i++){
