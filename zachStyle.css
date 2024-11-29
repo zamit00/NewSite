@@ -104,8 +104,12 @@ display: none;
   float: right;
   display: block;
 }
+    .dropdown:hover.dropdown-content {
+     display: none;
 }
-
+.dropdown:hover .drp{
+display: block;}
+    
 @media screen and (max-width: 768px) {
 .topnav.responsive {position: sticky;}
 .topnav.responsive .icon {
