@@ -6,32 +6,20 @@ function myFunction() {
       x.className = "topnav";
     }
     }
-/*
-       
-function myFun(x) {
 
-const container =  x.parentElement; // מוצא את הקונטיינר של הכפתור
-const menu = container.querySelector('dropdown-content');
-  if(menu.style.display===none|| menu.style.display===){
-    menu.style.display='block';}
-   else{menu.style.display="none"}
-    }
-      
-      if (taf.className === "dropdown-content") {
-        taf.className='dropdown-contenta';
-        
-      } else {
-        taf.className='dropdown-content';
-      }
-     
-      
-    }
-    else{taf.className='dropdown-content';
-      
+       
+function myfun(x) {
+
+if (x.id.icludes(1)){var i='1';}
+if (x.id.icludes(2)){var i='2';}
+if (x.id.icludes(3)){var i='3';}
+menu=document.getElementById(`drd${i});
+
+  if(menu.className ==='dropdown-content'){
+    menu.className='dropdown-content drp';}
+   else{menu.className='dropdown-content'}
     }
     
-  }
-  } 
   
   function humburger(){
     var mynav= document.getElementById("myTopnav");
