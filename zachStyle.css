@@ -145,7 +145,7 @@ display: block;
   text-align: center;
 }
 #home{text-align: left;padding: 0px 0px;box-sizing: border-box;width: 50px;
-  position: fixed;left:10px;top:13.5vh;border:none;}
+  position: fixed;left:10px;top:14vh;border:none;}
 .dropdown:hover .dropdown-content{display:none;}
 .dropdown:hover .drp{display:block;}
 #home:hover #home{color:#333;}
