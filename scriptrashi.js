@@ -23,17 +23,19 @@ menu=document.getElementById(`drp${i}`);
   function humburger(){
     var mynav= document.getElementById("myTopnav");
         for(let i=1;i<=4;i++){
-      var butt= document.getElementById(`btn${i}`);
+    var butt= document.getElementById(`btn${i}`);
     var icon = document.getElementById("icon");
-  
+  if(icon.innerHTML==="&#10005;"){
+     icon.innerHTML="&#9776;" 
+  }
+ else{icon.innerHTML="&#10005;"}
         
         if (butt.className === "dropbtn") {
           butt.className='dropbtna';
-          icon.innerHTML="&#10005;"; 
-        } 
+                  } 
         else {
           butt.className='dropbtn';
-            icon.innerHTML="&#9776;";
+        
 
           for(let i=1;i<=3;i++){
             var taf= document.getElementById(`dropdown-content${i}`);
