@@ -139,7 +139,7 @@ display: block;
   width: 100%;
   text-align: center;
 }
-#home{text-align: left;}
+#home{text-align: left;margin-left:10px;}
 .dropdown:hover .dropdown-content{display:none;}
 .dropdown:hover .drp{display:block;}
 
