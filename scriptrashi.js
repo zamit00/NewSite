@@ -25,13 +25,12 @@ menu=document.getElementById(`drp${i}`);
         for(let i=1;i<=4;i++){
     var butt= document.getElementById(`btn${i}`);
     var icon = document.getElementById("icon");
-  if(icon.innerHTML==="&#10005;"){
-     icon.innerHTML="&#9776;" 
-  }
- else{icon.innerHTML="&#10005;"}
-        
+ var iconx = document.getElementById("iconx");
+
+          
         if (butt.className === "dropbtn") {
-          butt.className='dropbtna';
+          butt.className='dropbtna';iconx.style.display='block';
+            icon.style.display='none';
                   } 
         else {
           butt.className='dropbtn';
@@ -41,6 +40,9 @@ menu=document.getElementById(`drp${i}`);
             var taf= document.getElementById(`dropdown-content${i}`);
             taf.className='dropdown-content';
            }
+            iconx.style.display='none';
+            icon.style.display='block';
+
          }
             
     }
