@@ -114,7 +114,7 @@ display: block;
   display: none;
   }
   .topnav a.icon {
-    position: fixed; top: 14vh;right: 5px;
+    position: absolute; top: 0;right: 0;
     display: block;
   }
       
@@ -146,7 +146,7 @@ display: block;
 
 
 #home{text-align: center;width: 40px;
-  position: fixed; top: 14vh;left: 5px;
+  position: absolute; top: 0;left: 0px;
 ;display: block;border:none;box-sizing:border-box;}
 .dropdown:hover .dropdown-content{display:none;}
 .dropdown:hover .drp{display:block;}
