@@ -26,13 +26,7 @@ font-size: 17px;
 position: sticky;
 }
 
-.images{
-  width: 100vw;
-  height: 750px;
-  background-image: url(hishtalmot.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
+
 
 .active {
 background-color: #333;
@@ -103,7 +97,13 @@ display: block;
   .topnav {
     overflow: hidden;
   }  
-  
+  .images{
+  width: 100vw;
+  height: 78vh;
+  background-image: url(hishtalmot.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
   .topnav a:not(:first-child), .dropdown .dropbtn {
   display: none;
   }
