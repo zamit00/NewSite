@@ -141,8 +141,8 @@ display: block;
 .topnav.responsive .dropdown .dropbtn,.topnav.responsive .dropbtn {
   display: block;
   width: 100%;
-  text-align: right;
- padding:16px 12px;
+  text-align: center;
+
   
 }
 
