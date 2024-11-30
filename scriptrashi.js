@@ -1,4 +1,14 @@
 function myFunction() {
+const icon = document.getElementById("icon");
+  if (icon.innerHTML === "&#9776;") {
+    // שנה ל-X
+    icon.innerHTML = "&times;";
+  } else {
+    // שנה חזרה להמבורגר
+    icon.innerHTML = "&#9776;";
+  }
+  
+  
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
@@ -19,18 +29,13 @@ if(menu.className ==='dropdown-content'){
  else{menu.className='dropdown-content'}
   }
   
-
+/*
 function humburger(){
   var mynav= document.getElementById("myTopnav");
       for(let i=1;i<=4;i++){
-  var butt= document.getElementById(`drd${i}`);
-  var icon = document.getElementById("icon");
-var iconx = document.getElementById("iconx");
-
-        
+  var butt= document.getElementById(`drd${i}`);     
       if (butt.className === "dropbtn") {
-        butt.className='dropbtna';iconx.style.display='block';
-          icon.style.display='none';
+        butt.className='dropbtna';
                 } 
       else {
         butt.className='dropbtn';
@@ -40,13 +45,13 @@ var iconx = document.getElementById("iconx");
           var taf= document.getElementById(`dropdown-content${i}`);
           taf.className='dropdown-content';
          }
-          iconx.style.display='none';
-          icon.style.display='block';
+          
 
        }
           
   }
 }
+
 function iconx(){
 
    for(let i=1;i<=4;i++){
@@ -64,3 +69,4 @@ document.getElementById('icon').Style.display='block';
 
 }
        
+*/
