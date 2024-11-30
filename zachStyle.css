@@ -151,8 +151,9 @@ font-weight: bold;color:#333;
   width: 100%;
   text-align: center;
 }
-#home{text-align: left;padding: 0px 0px;box-sizing: border-box;width: 50px;
-  position: fixed;left:10px;top:14.5vh;border:none;}
+#home{text-align: center;width: 50px;
+  position: absolute; left: 0;
+  top: 0;border:none;}
 .dropdown:hover .dropdown-content{display:none;}
 .dropdown:hover .drp{display:block;}
 
