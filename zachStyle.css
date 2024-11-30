@@ -1,5 +1,5 @@
 body {margin:0;padding: 0%;font-family:Arial;box-sizing: border-box;}
-
+.xsign{display:none;}
 #header1{position: fixed; top:6vh;background-color: #333;color:white;
     font-size:4vh;padding:0.5vh 0%;margin:0% 0% 5px 0%;
     white-space:nowrap;font-weight: bold; border: none;text-align: center;width: 100vw;}
@@ -132,5 +132,8 @@ display: block;}
 #home{text-align: left;}
 .dropdown:hover .dropdown-content{display:none;}
 .dropdown:hover .drp{display:block;}
+ .xsign{display: none;}
+.xsigna{display: block; possition: fixed;
+       left:49vw;top:19vh;z-index: 100;color;white;}
 }
 
