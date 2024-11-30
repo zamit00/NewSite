@@ -107,7 +107,7 @@ display: block;
 .images2 {
     margin-top: 2px;
 }
-  .hetz{float:left; margin-left: 50px;}
+  .hetz{float:left; margin-left: 30px;}
   .topnav {
     overflow: hidden;
   }  
@@ -146,7 +146,7 @@ display: block;
   display: block;
   width: 100%;
   text-align: right;
-  text-indent: 50px;
+  text-indent:20px;
 }
 
 
