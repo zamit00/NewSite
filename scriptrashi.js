@@ -1,14 +1,12 @@
 function myFunction() {
-const icon = document.getElementById("icon");
-  if (icon.innerHTML === "&#9776;") {
-    // שנה ל-X
-    icon.innerHTML = "&#10005;";
+
+  const icon = document.getElementById("icon");
+  if (icon.innerHTML === "☰") { // The rendered character for &#9776;
+    icon.innerHTML = "✕";      // The rendered character for &#10005;
   } else {
-    // שנה חזרה להמבורגר
-    icon.innerHTML = "&#9776;";
+    icon.innerHTML = "☰";
   }
-  
-  
+
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
