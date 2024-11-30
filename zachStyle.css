@@ -150,5 +150,5 @@ display: block;
   float: left;display: block;border:none;}
 .dropdown:hover .dropdown-content{display:none;}
 .dropdown:hover .drp{display:block;}
-#home:hover #home{color:#333;}
+#home{background-color:green;}
 }
