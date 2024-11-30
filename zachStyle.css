@@ -100,9 +100,14 @@ font-weight: bold;color:gold;
     background-size: cover;
     display: block;
 }
-.topnav a:hover, .dropdown:hover .dropbtnaa {
+.topnav a:hover, .dropdown:hover .dropbtn {
 font-weight: bold;color:gold;
 }
+.topnav a:hover, .dropdown:hover #home {
+font-weight: bold;color:#333;
+}
+
+   
 .images2 {
     margin-top: 2px;
 }
@@ -150,5 +155,5 @@ font-weight: bold;color:gold;
   position: fixed;left:10px;top:14vh;border:none;}
 .dropdown:hover .dropdown-content{display:none;}
 .dropdown:hover .drp{display:block;}
-#home:hover #home{color:#333;}
+
 }
