@@ -1,9 +1,10 @@
 function myFunction() {
     var x = document.getElementById("myTopnav");
+   var y = document.getElementById("xsign");
     if (x.className === "topnav") {
-      x.className += " responsive";
+      x.className += " responsive";y.className='xsigna';
     } else {
-      x.className = "topnav";
+      x.className = "topnav";className='xsign';
     }
     }
 
