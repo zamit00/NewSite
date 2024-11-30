@@ -116,7 +116,7 @@ display: block;
   display: none;
   }
   .topnav a.icon {
-    position;absolute;right:0;top:0;
+    
     display: block;
   }
       
@@ -151,5 +151,5 @@ display: block;
   float: left;display: block;border:none;box-sizing:border-box;}
 .dropdown:hover .dropdown-content{display:none;}
 .dropdown:hover .drp{display:block;}
-#home{background-color:green;}
+#home{background-color:gold;color:black;}
 }
