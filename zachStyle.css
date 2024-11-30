@@ -119,10 +119,6 @@ display: block;
     float: right;
     display: block;
   }
-  .topnav a.iconx {
-    float: right;
-    display: none;
-  }
       
       .dropdown:hover.dropdown-content {
        display: none;
@@ -146,7 +142,8 @@ display: block;
   display: block;
   width: 100%;
   text-align: right;
-  text-indent:20px;
+ padding:16px 12px;
+  
 }
 
 
