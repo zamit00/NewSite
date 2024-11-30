@@ -95,7 +95,7 @@ display: block;
 
     
 @media screen and (max-width: 768px) {
-  
+ 
   .images, .images2 {
     width: 100vw;
     height: 39vh;
@@ -142,11 +142,14 @@ display: block;
 }
 .topnav.responsive .dropdown {float: none;}
 .topnav.responsive .dropdown-content {position: relative;}
-.topnav.responsive .dropdown .dropbtn {
+.topnav.responsive .dropdown .dropbtn,.topnav.responsive .dropbtn {
   display: block;
   width: 100%;
-  text-align: center;
+  text-align: right;
+  text-indent: 150px;
 }
+
+
 #home{text-align: center;width: 50px;
   position: absolute; left: 0;
   top: 0;border:none;}
