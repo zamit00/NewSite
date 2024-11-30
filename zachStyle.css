@@ -127,9 +127,8 @@ display: block;
   display: block;}
 .topnav.responsive {position: sticky;}
 .topnav.responsive .icon {
-  position: absolute;
-  right: 0;
-  top: 0;
+  float: right;
+    display: block;
 }
 .topnav.responsive a {
   float: none;
@@ -148,8 +147,7 @@ display: block;
 
 
 #home{text-align: center;width: 50px;
-  position: absolute; left: 0;
-  top: 0;border:none;display:none;}
+  float: left;display: block;border:none;}
 .dropdown:hover .dropdown-content{display:none;}
 .dropdown:hover .drp{display:block;}
 #home:hover #home{color:#333;}
