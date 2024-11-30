@@ -47,5 +47,11 @@ menu=document.getElementById(`drp${i}`);
             
     }
   }
-   
+ function iconx(){
  
+     for(let i=1;i<=4;i++){
+    var butt= document.getElementById(`btn${i}`);
+    butt.className='dropbtn';}
+     var x = document.getElementById("myTopnav");
+    x.className = "topnav";}
+         
