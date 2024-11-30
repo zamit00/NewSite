@@ -107,7 +107,7 @@ display: block;
 .images2 {
     margin-top: 2px;
 }
-  .hetz{float:left; margin-left: 30px;}
+  .hetz{float:left; margin-left: 20px;}
   .topnav {
     overflow: hidden;
   }  
@@ -140,7 +140,8 @@ display: block;
 .topnav.responsive .dropdown .dropbtn,.topnav.responsive .dropbtn {
   display: block;
   width: 100%;
-  text-align: center;
+  text-align: right;
+  text-indent: 10px;
 
   
 }
