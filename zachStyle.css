@@ -33,7 +33,7 @@ background-color: #333;
 color: white;
 }
 
-.topnav .icon, .topnav .iconx {
+.topnav .icon {
 display: none;
 }
 
@@ -86,23 +86,29 @@ display: block;
 @media screen and (min-width:768px){
   .topnav {
   display: flex;
-}  
+} 
+.images, .images2{display: none;} 
 }
 
 
     
 @media screen and (max-width: 768px) {
+  .images, .images2 {
+    width: 100vw;
+    height: 39vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+.images2 {
+    margin-top: 2px;
+}
   .hetz{float:left; margin-left: 25px;}
   .topnav {
     overflow: hidden;
   }  
-  .images{
-  width: 100vw;
-  height: 78vh;
-  background-image: url(hishtalmot.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
+  
   .topnav a:not(:first-child), .dropdown .dropbtn {
   display: none;
   }
@@ -138,10 +144,8 @@ display: block;
   width: 100%;
   text-align: center;
 }
-#home{text-align: center;padding: 16px 0px;
-      box-sizing: border-box;width:80px;background-color: #333;}
+#home{text-align: left;padding: 0px 0px;box-sizing: border-box;width: 50px;
+  position: fixed;left:10px;top:13.5vh;}
 .dropdown:hover .dropdown-content{display:none;}
 .dropdown:hover .drp{display:block;}
-
-
 }
