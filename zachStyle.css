@@ -43,7 +43,7 @@ background-color: #333;
 color: white;
 }
 
-.topnav .icon, .topnav .iconx {
+.topnav .icon {
 display: none;
 }
 
@@ -103,10 +103,7 @@ display: none;
   float: right;
   display: block;
 }
-.topnav a.iconx {
-  float: right;
-  display: none;
-}
+
     
     .dropdown:hover.dropdown-content {
      display: none;
