@@ -23,15 +23,18 @@ menu=document.getElementById(`drp${i}`);
   
   function humburger(){
     var mynav= document.getElementById("myTopnav");
+    var icon = document.getElementById("icon");
     for(let i=1;i<=4;i++){
       var butt= document.getElementById(`btn${i}`);
           
         
         if (butt.className === "dropbtn") {
           butt.className='dropbtna';
+          icon.innerHTML="&#10005;"; 
         } 
         else {
           butt.className='dropbtn';
+            icon.innerHTML="&#9776;";
 
           for(let i=1;i<=3;i++){
             var taf= document.getElementById(`dropdown-content${i}`);
