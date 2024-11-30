@@ -71,9 +71,7 @@ display: block;
 text-align: right;
 }
 
-.topnav a:hover, .dropdown:hover .dropbtn {
-font-weight: bold;color:gold;
-}
+
 
 .dropdown-content a:hover {
 background-color: #ddd;
@@ -89,7 +87,9 @@ display: block;
 } 
 .images, .images2{display: none;} 
 }
-
+.topnav a:hover, .dropdown:hover .dropbtn {
+font-weight: bold;color:gold;
+}
 
     
 @media screen and (max-width: 768px) {
@@ -100,7 +100,9 @@ display: block;
     background-size: cover;
     display: block;
 }
-
+.topnav a:hover, .dropdown:hover .dropbtnaa {
+font-weight: bold;color:gold;
+}
 .images2 {
     margin-top: 2px;
 }
