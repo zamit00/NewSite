@@ -7,17 +7,6 @@ function myFunction() {
       x.className = "topnav";y.className='xsign';
     }
     }
-
-function xsign() {
-    var x = document.getElementById("myTopnav");
-     var y = document.getElementById("xsign");
-
-    x.className = "topnav";y.className='xsign';
-    }
-
-
-
-
        
 function myfun(x) {
 
