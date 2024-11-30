@@ -146,8 +146,8 @@ display: block;
 }
 
 
-#home{text-align: center;width: 50px;
-  float: left;display: block;border:none;}
+#home{text-align: center;width: 40px;
+  float: left;display: block;border:none;box-sizing:border-box;}
 .dropdown:hover .dropdown-content{display:none;}
 .dropdown:hover .drp{display:block;}
 #home{background-color:green;}
