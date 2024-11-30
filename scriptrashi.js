@@ -4,9 +4,19 @@ function myFunction() {
     if (x.className === "topnav") {
       x.className += " responsive";y.className='xsigna';
     } else {
-      x.className = "topnav";className='xsign';
+      x.className = "topnav";y.className='xsign';
     }
     }
+
+function xsign() {
+    var x = document.getElementById("myTopnav");
+     var y = document.getElementById("xsign");
+
+    x.className = "topnav";y.className='xsign';
+    }
+
+
+
 
        
 function myfun(x) {
