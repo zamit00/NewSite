@@ -130,7 +130,7 @@ display: block;}
   text-align: center;
 }
 #home{text-align: left;}
-.dropdown-content{display:none;}
-.drp{display:block;}
+.dropdown:hover .dropdown-content{display:none;}
+.dropdown:hover .drp{display:block;}
 }
 
