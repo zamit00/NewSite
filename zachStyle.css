@@ -149,7 +149,7 @@ display: block;
 
 #home{text-align: center;width: 50px;
   position: absolute; left: 0;
-  top: 0;border:none;}
+  top: 0;border:none;display:none;}
 .dropdown:hover .dropdown-content{display:none;}
 .dropdown:hover .drp{display:block;}
 #home:hover #home{color:#333;}
