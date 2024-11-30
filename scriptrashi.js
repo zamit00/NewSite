@@ -27,29 +27,15 @@ if(menu.className ==='dropdown-content'){
  else{menu.className='dropdown-content'}
   }
   
-/*
-function humburger(){
+
+function home(){
+  const icon = document.getElementById("icon");
+   icon.innerHTML = "☰";
   var mynav= document.getElementById("myTopnav");
-      for(let i=1;i<=4;i++){
-  var butt= document.getElementById(`drd${i}`);     
-      if (butt.className === "dropbtn") {
-        butt.className='dropbtna';
-                } 
-      else {
-        butt.className='dropbtn';
-      
+   mynav.className = "topnav";
+   }
 
-        for(let i=1;i<=3;i++){
-          var taf= document.getElementById(`dropdown-content${i}`);
-          taf.className='dropdown-content';
-         }
-          
-
-       }
-          
-  }
-}
-
+/*
 function iconx(){
 
    for(let i=1;i<=4;i++){
