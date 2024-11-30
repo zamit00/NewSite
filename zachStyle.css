@@ -101,6 +101,7 @@ display: block;
 .topnav a:not(:first-child), .dropdown .dropbtn {
 display: none;
 }
+.topnav a {padding:16px 0px;}
 .topnav a.icon {
   float: right;
   display: block;
