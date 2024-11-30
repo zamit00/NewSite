@@ -2,7 +2,7 @@ function myFunction() {
 const icon = document.getElementById("icon");
   if (icon.innerHTML === "&#9776;") {
     // שנה ל-X
-    icon.innerHTML = "&times;";
+    icon.innerHTML = "&#10005;";
   } else {
     // שנה חזרה להמבורגר
     icon.innerHTML = "&#9776;";
