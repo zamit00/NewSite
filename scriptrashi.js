@@ -1,4 +1,4 @@
-de rfunction myFunction() {
+function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
       x.className += " responsive";
@@ -58,6 +58,8 @@ menu=document.getElementById(`drp${i}`);
      for(let i=1;i<=3;i++){
      menu=document.getElementById(`drp${i}`);
      menu.className ='dropdown-content';}
- 
+   document.getElementById('iconx').Style.display='none';
+document.getElementById('icon').Style.display='block';
+
  }
          
