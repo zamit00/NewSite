@@ -116,7 +116,7 @@ display: block;
   display: none;
   }
   .topnav a.icon {
-    float: right;
+    position;absolute;right:0;top:0;
     display: block;
   }
       
