@@ -74,7 +74,7 @@ text-align: right;
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-font-weight: bold;color:gold;
+font-weight: bold;color:white;
 }
 
 .dropdown-content a:hover {
