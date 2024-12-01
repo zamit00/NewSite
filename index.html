@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="he">
 <head>
@@ -9,64 +10,104 @@
   <script src="scriptrashi.js"></script> 
 </head>
 <body dir="rtl">
-  <div class="header">
+    <div class="header">
             <p id="gemely"><strong>&#x05D2;&#x05B6;&#x05DE;&#x05B6;&#x05DC;&#x05B4;י</strong></p>
 		    <p id='header1'>קופות גמל וקרנות השתלמות</p>   
-        </div>
+    </div>
         
-        <div class="topnav" id="myTopnav">
-        <a href="#home"  id="home"><i class=" fa fa-home home" onclick='home()'></i></a>
+    <div class="topnav" id="myTopnav">
+            <a href="#home"  id="home"><i class=" fa fa-home home" onclick='home()'></i></a>
         
-        <div class="dropdown">
-            <button class="dropbtn" id='drd1' onclick='myfun(this)'><span class='bt'>מידע מקצועי</span>
-             <span class='hz'> <i class="fa fa-caret-down hetz"></i></span>
-            </button>
-            <div class="dropdown-content" id='drp1' >
-                <a href="#" class="kh">קרנות השתלמות</a>
-                <a href="#">קופות גמל להשקעה</a>
-                <a href="#">קופות גמל לקצבה</a>
-                <a href="#">קופות גמל חסכון לילד</a>
-                <a href="#">קופות גמל אחרות</a>
+            <div class="dropdown">
+                <button class="dropbtn" id='drd1' onclick='myfun(this)'><span class='bt'>מידע מקצועי</span>
+                <i class="fa fa-caret-down hetz"></i>
+                </button>
+                <div class="dropdown-content" id='drp1' >
+                    <a href="#" class="kh">קרנות השתלמות</a>
+                    <a href="#">קופות גמל להשקעה</a>
+                    <a href="#">קופות גמל לקצבה</a>
+                    <a href="#">קופות גמל חסכון לילד</a>
+                    <a href="#">קופות גמל אחרות</a>
+                </div>
+            </div> 
+            <div class="dropdown">
+                <button class="dropbtn"id='drd2' onclick='myfun(this)' ><span class='bt'>נתוני קופות גמל</span> 
+                <i class="fa fa-caret-down hetz"></i>
+                </button>
+                <div class="dropdown-content" id='drp2' >
+                    <a href="#">השוואת תשואות</a>
+                    <a href="#">חשיפות ונכסים</a>
+                    <a href="#">מדד השירות</a>
+                    <a href="#">  נתוני השוואה אחרים </a>
+                </div>
             </div>
-          </div> 
-        <div class="dropdown">
-          <button class="dropbtn"id='drd2' onclick='myfun(this)' ><span class='bt'>נתוני קופות גמל</span> 
-           <span class='hz'> <i class="fa fa-caret-down hetz"></i></span>
-          </button>
-          <div class="dropdown-content" id='drp2' >
-                <a href="#">השוואת תשואות</a>
-                <a href="#">חשיפות ונכסים</a>
-                <a href="#">מדד השירות</a>
-                <a href="#">  נתוני השוואה אחרים </a>
-          </div>
-        </div> 
-        <div class="dropdown">
-            <button class="dropbtn" id='drd3' onclick='myfun(this)' ><span class='bt'> מחשבונים </span>
-             <span class='bt'> <i class="fa fa-caret-down hetz"></i></span>
-            </button>
-            <div class="dropdown-content" id='drp3' >
-                <a href="#">מחשבון ריבית דריבית</a>
-                <a href="#">מחשבון הצמדה למדד</a>
-                <a href="#">שאלון סיכון</a>
-                <a href="#">סימולטור הלוואות</a>
+        
+            <div class="dropdown">
+                <button class="dropbtn" id='drd3' onclick='myfun(this)' ><span class='bt'> מחשבונים </span>
+                <i class="fa fa-caret-down hetz"></i>
+                </button>
+                <div class="dropdown-content" id='drp3' >
+                    <a href="#">מחשבון ריבית דריבית</a>
+                    <a href="#">מחשבון הצמדה למדד</a>
+                    <a href="#">שאלון סיכון</a>
+                    <a href="#">סימולטור הלוואות</a>
+                </div>
             </div>
-          </div>
-
+    
         <a href="#about"  id='drd4' class="dropbtn"><span class='bt'> אודות</span></a>
         <a href="javascript:void(0);" style="font-size:15px;" class="icon"  id='icon'   onclick="myFunction()">&#9776;</a>
         
 
 	</div>
-  <img src="hishtalmot.jpg" usemap="#imageMap1" class="images" id="img1">
-  <map name="imageMap1">
-    <area shape="rect" coords="1,1,768,800" alt="Area1" href="#">
-  </map>
-  
-  <img src="layeled.jpg" usemap="#imageMap2" class="images2" id="img2">
-  <map name="imageMap2">
-    <area shape="rect" coords="1,1,800,800" alt="Area1" href="#">
-  </map>
     
-  
+    <div class="hitalmot_lama">
+        <img src="hishtalmot.jpg" usemap="#imageMap1" class="images" id="img1">
+        <area shape="rect" coords="1,1,768,800" alt="Area1" href="#">
+    </div>
+    <div class="yeled_lama">
+        <img src="layeled.jpg" usemap="#imageMap2" class="images2" id="img2">
+        <area shape="rect" coords="1,1,768,800" alt="Area1" href="#">
+    </div>
+ 
+    <div class="tahlichim">
+        <div class="hiz">
+            <img src="hiztarfot.jpg"  class="hiztarfot" id="hiztarfot" width="93%" height="auto">
+            <p class="taha" style="color:black;font-weight: bold;
+         margin-bottom: 20px;width:100%;text-align: center;">הצטרפות לקופת גמל</p>
+        </div>
+        <div class="mesh">
+            <img src="meshicha.jpg"  class="meshiha" id="meshiha" width="100%" height="auto">
+            <p class="taha" style="color:black;font-weight: bold;
+            margin-bottom: 20px;width:100%;text-align: center;">משיכת כספים מקופת גמל</p>
+        </div>
+    </div>
+    <div class="tahlichim">
+        <div class="hiz">
+            <img src="maslolim.jpg"  class="maslolim" id="maslolim" width="93%" height="auto">
+            <p class="taha" style="color:black;font-weight: bold;
+            margin-bottom: 20px;width:100%;text-align: center;">מעבר בין מסלולים בקופת גמל</p>
+        </div>
+        <div class="mesh">
+            <img src="maavarkoput.jpg"  class="maavar" id="maavar" width="100%" height="auto">
+            <p class="taha" style="color:black;font-weight: bold;
+            margin-bottom: 20px;width:100%;text-align: center;">ניוד בין קופת גמל</p>
+        </div>
+    </div>
+    <div class="odot">
+        <p style="color:green;font-weight: bold;display: flex;
+        justify-content: center;margin-bottom: 20px;width: 100%;">אודות</p>
+    
+        <img src="hagay_zach.jpg"  class="zach" id="img3" width="30%" height="30%">  
+            <p class="tzevet">
+    חגי זך,רו"ח ובעל רישיון פנסיוני <br> מעל 20 שנות ניסיון בענף 
+        </p> 
+        <p class="hatar">האתר נבנה כחלק מהשלמת משימה שהחלה בשלהי 
+        שנת 2006 עם רצון בעל האתר לשתף ולספק מידע אודות קופות גמל וקרנות
+        השתלמות אשר יעזור לציבור הרחב לקבל אינפורמציה מקיפה יותר על הענף.
+        .ולפעול בצורה נבונה בביצוע השקעות פיננסיות
+        
+        </p>
+        <img src="ataryashan.jpg"  class="zach" id="img3" width="100%" height="100%">
+    </div>
 </body>
 </html>
