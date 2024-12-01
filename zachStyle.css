@@ -95,7 +95,7 @@ display: block;
 
     
 @media screen and (max-width: 768px) {
-  .bt{float:right;margin-right: 30px;}
+  .bt{float:right;margin-right: 30px;width:170px; }
   .images, .images2 {
     width: 100vw;
     height: 39vh;
@@ -107,7 +107,7 @@ display: block;
 .images2 {
     margin-top: 2px;
 }
-  .hetz{float:left; margin-left:70px;}
+  .hetz{margin-right:10px;}
   .topnav {
     overflow: hidden;
   }  
