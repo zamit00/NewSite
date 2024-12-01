@@ -139,7 +139,7 @@ main{display: none;}
   display: block;
   width: 100%;
   text-align: center;
-  
+  padding-bottom: 22px;
 }
 #drd4{padding-bottom:20px;}
 .bt{position: absolute; right:15%;}
