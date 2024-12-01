@@ -92,7 +92,7 @@ display: block;
   .topnav {
   display: flex;
 } 
-.images, .images2{display: none;} 
+main{display: none;} 
 }
 
 
