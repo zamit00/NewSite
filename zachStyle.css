@@ -107,7 +107,7 @@ display: block;
 .images2 {
     margin-top: 2px;
 }
-  .hetz{float:left; margin-left: 150px;}
+  .hetz{float:left; margin-left: 50px;}
   .topnav {
     overflow: hidden;
   }  
@@ -134,6 +134,8 @@ display: block;
   position: absolute;
   right: 0;
   top: 0;
+  max-width:50px;
+  box-sizing:border-box;
 }
 .topnav.responsive a {
   float: none;
@@ -145,7 +147,8 @@ display: block;
 .topnav.responsive .dropdown .dropbtn {
   display: block;
   width: 100%;
-  text-align: center;
+  text-align: right;
+  text-indent:80px; 
 }
 #home{text-align: center;width: 50px;
   position: absolute; left: 0;
