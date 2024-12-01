@@ -175,6 +175,6 @@ main{display: none;}
 .dropdown:hover .dropdown-content{display:none;}
 .dropdown:hover .drp{display:block;}
 #home:hover #home{color:#333;}
-.hatar{width: 100%;display: flex;justify-content: center;padding: 8px;box-sizing: border-box;}
+.hatar{width: 100%;display: flex;justify-content: center;padding: 12px;box-sizing: border-box;}
 
 }
