@@ -151,6 +151,8 @@ display: block;
   text-indent:10px;
   
 }
+#drd5{ text-align: right;
+  text-indent:10px;}
 #home{text-align: center;width: 50px;
   position: absolute; left: 0;
   top: 0;border:none;}
