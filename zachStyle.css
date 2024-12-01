@@ -107,7 +107,7 @@ display: block;
 .images2 {
     margin-top: 2px;
 }
-  .hetz{ margin-right:10px;}
+  .hetz{float:left; margin-left:70px;}
   .topnav {
     overflow: hidden;
   }  
