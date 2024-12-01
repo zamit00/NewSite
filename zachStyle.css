@@ -95,7 +95,7 @@ display: block;
 
     
 @media screen and (max-width: 768px) {
-  
+  .bt{float:right;margin-right: 30px;}
   .images, .images2 {
     width: 100vw;
     height: 39vh;
