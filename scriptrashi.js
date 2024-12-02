@@ -43,7 +43,7 @@ function odot() {
 
     // עיכוב קצר לוודא שכל שינויי ה-DOM הושלמו
     setTimeout(() => {
-        document.getElementById('odot').scrollIntoView({
+        document.getElementById('maavar').scrollIntoView({
             behavior: 'smooth' // גלילה חלקה
         });
     }, 100); // עיכוב של 100ms
