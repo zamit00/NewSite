@@ -39,10 +39,11 @@ function home(){
 
 
 function odot() {
+  home();
      document.getElementById('odot').scrollIntoView({ 
         behavior: 'smooth' // גלילה חלקה
     });
-home();
+
 }
 
 /*
