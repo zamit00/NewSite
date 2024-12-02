@@ -55,6 +55,12 @@ function odot() {
     }, 100); // עיכוב של 100ms
 }
 
+
+    function closew() {
+      window.close(); 
+    }
+
+
 /*
 function iconx(){
 
