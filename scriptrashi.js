@@ -43,6 +43,7 @@ document.getElementById('drd4').addEventListener('click', function(e) {
     document.getElementById('odot').scrollIntoView({ 
         behavior: 'smooth' // גלילה חלקה
     });
+home();
 });
 /*
 function iconx(){
