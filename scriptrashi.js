@@ -1,5 +1,5 @@
 function hisht(){
-  windows.open('https://zamit00.github.io/NewSite/hishtalmot.html');
+  window.open('https://zamit00.github.io/NewSite/hishtalmot.html');
 }
 function myFunction() {
 
