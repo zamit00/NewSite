@@ -98,7 +98,8 @@ main{display: none;}
 
     
 @media screen and (max-width: 768px) {
-  
+  .closewindow{position: fixed; color;gold;
+              left:20px;top:20px;z-index:100;}
   .topnav {
     overflow: hidden;
   }  
