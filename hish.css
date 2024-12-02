@@ -1,0 +1,75 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* לכל אלמנט ייכנס בגבולות המיכל */
+}
+.img{background-image: url(hishtalmot_savingrek.jpg);
+    background-size: cover;background-repeat: no-repeat;
+    width:50vw;height: 850px;   
+}
+body {
+    font-family: Arial, sans-serif; /* משפחת גופנים נוחה לקריאה */
+    line-height: 1.6; /* מרווח בין השורות */
+    overflow-x: hidden; /* מונע גלילה אופקית */
+    width: 100%; /* מבטיח שהאלמנטים יתפשטו לרוחב המסך */
+    display: flex;flex-direction: column;align-items: center;
+}
+
+main {
+    max-width: 100%; /* מבטיח שהתוכן לא יעבור את רוחב המסך */
+    padding: 10px; /* רווח פנימי */
+}
+.koteret{display: flex;flex-direction: column; align-items: center;
+    justify-content: space-between;max-height: 10vh;width: 100vw;overflow: hidden;}
+    
+        
+ h3,h2, p, ul {
+    width: 50%; /* הגדרה לרוחב 100% כדי להבטיח שהתוכן יימתח לרוחב */
+    word-break: break-word; /* אם המילה לא נכנסת בשורה, היא תישבר */
+    word-wrap: break-word; /* אם יש מילה ארוכה שלא נכנסת, היא תישבר */
+    text-align: justify;
+    max-width: 100%;
+    font-size: 25px;
+}
+li{margin-right: 20px;}
+/* תמונות מתאימות לרוחב */
+
+    
+
+.koteret{background-color: #333;position: fixed;top: 0;width: 100vw;height: 20vh;}
+    #gemely{font-size: 50px;text-align: center;color: gold;width: 100%;background-color: #333;margin: 0%;}
+    #header1{font-size: 36px;text-align: center;color: gold;width: 100%;background-color: #333;margin: 0%;}
+    
+    
+
+
+
+
+
+    /* מדיה רגישות למסכים קטנים */
+@media (max-width: 768px) {
+    h3,h2, p, ul {
+        width: 100%;
+    font-size: 16px;}
+    body { padding: 10px;}
+    .img {width: 110%; height: 380px;margin: 0%;padding: 0%;}
+    .koteret{background-color: #333;position: fixed;top: 0;width: 100%;height: 15vh;}
+    #gemely{font-size: 20px;text-align: center;color: gold;width: 100%;background-color: #333;padding: 0 0;}
+    #header1{position: absolute;top: 5vh;font-size: 16px;text-align: center;color: gold;width: 100%;background-color: #333;margin: 0%;}
+    p, h1, h3,h2 {
+        font-size: 16px; 
+        padding: 0%;margin: 0%;
+    }
+
+    ul {
+        padding-left: 0; /* הסרת רווח פנימי ממנה */
+    }
+
+    ul li {
+        margin-bottom: 10px; /* רווח בין פריטי הרשימה */
+    }
+    h1{color: black;font-weight: bold;font-size: 22px;}
+    h2{color: green;font-weight: bold;font-size: 18px;margin: 10px 0 5px 0;}
+    h3{font-weight: bold;font-size: 16px;margin: 15px 0 5px 0;}
+}
