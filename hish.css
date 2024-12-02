@@ -24,7 +24,7 @@ main {
     justify-content: space-between;max-height: 10vh;width: 100vw;overflow: hidden;}
     
         
- h3,h2, p, ul {
+ h3,h2, p, ul, .yeledp {
     width: 50%; /* הגדרה לרוחב 100% כדי להבטיח שהתוכן יימתח לרוחב */
     word-break: break-word; /* אם המילה לא נכנסת בשורה, היא תישבר */
     word-wrap: break-word; /* אם יש מילה ארוכה שלא נכנסת, היא תישבר */
