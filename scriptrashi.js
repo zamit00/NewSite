@@ -35,6 +35,15 @@ function home(){
   icon.innerHTML = "☰";
   mynav.className = "topnav"; 
 }
+
+
+
+document.getElementById('drd4').addEventListener('click', function(e) {
+    e.preventDefault(); // מונע את ההתנהגות הרגילה של הקישור
+    document.getElementById('odot').scrollIntoView({ 
+        behavior: 'smooth' // גלילה חלקה
+    });
+});
 /*
 function iconx(){
 
