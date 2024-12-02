@@ -24,7 +24,7 @@ main {
     justify-content: space-between;max-height: 10vh;width: 100vw;overflow: hidden;}
     
         
- h3,h2, p, ul {
+ h3,h2, p, ul  {
     width: 50%; /* הגדרה לרוחב 100% כדי להבטיח שהתוכן יימתח לרוחב */
     word-break: break-word; /* אם המילה לא נכנסת בשורה, היא תישבר */
     word-wrap: break-word; /* אם יש מילה ארוכה שלא נכנסת, היא תישבר */
@@ -76,4 +76,6 @@ li{margin-right: 20px;}
     h1{color: black;font-weight: bold;font-size: 22px;}
     h2{color: green;font-weight: bold;font-size: 18px;margin: 10px 0 5px 0;}
     h3{font-weight: bold;font-size: 16px;margin: 15px 0 5px 0;}
+
+    .metsuyan{color:green;}
 }
