@@ -42,9 +42,9 @@ function odot() {
     e.preventDefault(); // מונע את ההתנהגות הרגילה של הקישור
     document.getElementById('odot').scrollIntoView({ 
         behavior: 'smooth' // גלילה חלקה
-    );}
+    });
 home();
-);}
+}
 
 /*
 function iconx(){
