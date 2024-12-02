@@ -49,7 +49,7 @@ li{margin-right: 20px;}
 
     /* מדיה רגישות למסכים קטנים */
 @media (max-width: 768px) {
-    .closewindow{position: fixed; color;gold;
+    .closewindow{position: fixed; color:gold;
               left:20px;top:20px;z-index:100;}
 
     h3,h2, p, ul {
