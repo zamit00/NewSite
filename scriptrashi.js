@@ -39,11 +39,14 @@ function home(){
 
 
 function odot() {
-  home();
-     document.getElementById('odot').scrollIntoView({ 
-        behavior: 'smooth' // גלילה חלקה
-    });
+    home(); // קריאה לפונקציה home
 
+    // עיכוב קצר לוודא שכל שינויי ה-DOM הושלמו
+    setTimeout(() => {
+        document.getElementById('odot').scrollIntoView({
+            behavior: 'smooth' // גלילה חלקה
+        });
+    }, 100); // עיכוב של 100ms
 }
 
 /*
