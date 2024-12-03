@@ -15,7 +15,7 @@ body {
     width: 100%; /* מבטיח שהאלמנטים יתפשטו לרוחב המסך */
     display: flex;flex-direction: column;align-items: center;
 }
-
+.hak{color: green;}
 main {
     max-width: 100%; /* מבטיח שהתוכן לא יעבור את רוחב המסך */
     padding: 10px; /* רווח פנימי */
