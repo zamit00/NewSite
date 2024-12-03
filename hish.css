@@ -42,7 +42,6 @@ li{margin-right: 20px;}
 
     /* מדיה רגישות למסכים קטנים */
 @media (max-width: 768px) {
-    .yeledp{width: 100%;font-size: 16px;}
     .closewindow{position: fixed; color:gold;
               left:20px;top:20px;z-index:100;}
 
