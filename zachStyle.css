@@ -149,8 +149,8 @@ main{display: none;}
 
 
 .images2,.images {
-  width: 98vw;
-  height: 37vh;
+  width: 100vw;
+  height: 35vh;
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
