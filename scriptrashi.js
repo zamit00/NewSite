@@ -12,6 +12,13 @@ function yeld() {
     'width=800,height=600,top=100,left=100,resizable=yes,scrollbars=yes'
   );
 }
+function yeld() {
+  window.open(
+    'https://zamit00.github.io/NewSite/hiztarfot.html', 
+    '_blank', 
+    'width=800,height=600,top=100,left=100,resizable=yes,scrollbars=yes'
+  );
+}
 function myFunction() {
 
   const icon = document.getElementById("icon");
