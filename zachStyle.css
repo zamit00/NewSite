@@ -149,11 +149,13 @@ main{display: none;}
 
 
 .images2,.images {
-  width: 100vw;
-  height: 39vh;
+  width: 98vw;
+  height: 37vh;
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
+  margin-left: auto;
+  margin-right: auto;  
 }
 
 .images2 {
