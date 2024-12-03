@@ -4,12 +4,6 @@
     padding: 0;
     box-sizing: border-box; /* לכל אלמנט ייכנס בגבולות המיכל */
 }
-#header1{position: fixed; top:6vh;color:white;
-    font-size:3.5vh;padding:0.5vh 0%;margin:0% 0% 5px 0%;margin-right:0px 3px 0px 0px;
-    white-space:nowrap;font-weight: bold; border: none;text-align: center;width: 95%;}
-#gemely{color:gold;font-size:4.5vh;padding: 0% ;margin:0;position: fixed; top: 0.5vh;
-     text-align: center;width: 95%;margin-right:0px 3px 0px 0px;}
-.header{background-color: #333;width: 100vw;height
 .img{background-image: url(hishtalmot_savingrek.jpg);
     background-size: cover;background-repeat: no-repeat;
     width:50vw;height: 850px;   
@@ -39,9 +33,23 @@ main {
     font-size: 25px;
 }
 li{margin-right: 20px;}
+/* תמונות מתאימות לרוחב */
+
+    
+
+.koteret{background-color: #333;position: fixed;top: 0;width: 100vw;height: 20vh;}
+    #gemely{font-size: 50px;text-align: center;color: gold;width: 100%;background-color: #333;margin: 0%;}
+    #header1{font-size: 36px;text-align: center;color: gold;width: 100%;background-color: #333;margin: 0%;}
+    
+    
+
+
+
+
 
     /* מדיה רגישות למסכים קטנים */
 @media (max-width: 768px) {
+    .yeledp{width: 100%;font-size: 16px;}
     .closewindow{position: fixed; color:gold;
               left:20px;top:20px;z-index:100;}
 
