@@ -47,7 +47,7 @@ main{width: 100vw;height:800px;margin-top: 20vh;}
       padding-right: 10px;font-size: 1.1rem;background-color: lightgray;
       color: black;border-bottom: 1px solid rgba(0,0,0,0.2);}
     .dropdown:hover .dropdown-content{display: block;}
-    .dropdown:hover .btn{color:rgb(89, 227, 89);}
+    .dropdown:hover .btn{color:green;}
     .dropdown:hover .dropdown-content a{ width: 160px;}
     .dropdown-content a:hover {background-color: azure;}
     
