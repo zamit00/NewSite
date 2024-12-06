@@ -22,7 +22,7 @@ h2{font-size: 27px;color:blue; font-weight: bold;}
 }
 
 @media only screen and (max-width: 768px){
-    .logo{position: fixed;right: 4vw;top:3vh;width:100px; height:auto;}
+    .logo{position: fixed;right: 4vw;top:2vh;width:100px; height:auto;}
     header{width: 100vw;height: 18vh;}
     .kot h1, .kot h2{white-space:nowrap;}
     h1{font-size: 20px;color:green; font-weight: bold;}
