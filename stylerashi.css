@@ -118,7 +118,7 @@ main{width: 100vw;height:800px;margin-top: 20vh;}
   .bigimage{display: flex;flex-direction: column;align-items: center;}
   .images2,.images {
    width: 100vw;
-   height: 60vh;  
+   height: 45vh;  
    margin-left: auto;
    margin-right: auto;  
  }
