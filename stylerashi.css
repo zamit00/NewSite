@@ -92,7 +92,7 @@ main{width: 100vw;height:800px;margin-top: 20vh;}
 
   
   @media only screen and (max-width: 768px){
-    .logo{position: fixed;right: 4vw;top:3vh;width:100px; height:auto;}
+    .logo{position: fixed;right: 4vw;top:2vh;width:100px; height:auto;}
     header{width: 100vw;height: 28vh;}
     .kot h1, .kot h2{white-space:nowrap;}
     .dropdown-content a{ width: 100vw;text-align: center;margin-right: 0;
