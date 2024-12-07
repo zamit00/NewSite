@@ -1,3 +1,8 @@
+function onch(){
+    const tablediv= document.getElementById("tozaot");
+       tablediv.innerHTML=""; 
+}
+
 function opn(x){
     var element=document.getElementById(x)
     if(element.style.display==='none' || element.style.display==='' ){
