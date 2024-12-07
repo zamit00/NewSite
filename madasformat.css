@@ -1,3 +1,7 @@
+header{width: 100vw;height: 14vh;position: fixed;top:0;background-color: #333;
+    overflow-y: hidden;margin: 0%;padding: 0;}
+.kot h1{color:rgb(89, 227, 89);position: absolute; left: 50%; transform: translateX(-50%);
+        top: 1vh;}
 body{
   display: flex;
   flex-direction: column;
@@ -117,4 +121,17 @@ th{
 #hashev{
   margin-right: 32%;
 }
-  
+@media only screen and (min-width: 767px){
+  .main{display:none}
+}
+@media only screen and (max-width: 768px){
+    .logo{position: fixed;right: 4vw;top:2vh;width:100px; height:auto;}
+    header{width: 100vw;height: 18vh;}
+    .kot h2{top:8vh;}
+    .kot h1, .kot h2{white-space:nowrap;}
+}
+
+@media only screen and (max-width: 480px){
+    .logo{position: fixed;right: 0;top:3vh;width:75px; height:auto;}
+    
+}
