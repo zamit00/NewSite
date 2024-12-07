@@ -13,6 +13,7 @@ header{width: 100vw;height: 18vh;position: fixed;top:0;background-color: #333;
     }
     .kot h1{font-size: 45px;margin-top: 0px;}
     .kot h2{font-size: 30px;margin-top: 15px;}
+    main{display:none;}
 }
 @media only screen and (max-width: 768px){
     body{margin: 0;padding: 0;}
