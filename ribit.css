@@ -1,7 +1,8 @@
 html{font-family:sans-serif,Arial, Helvetica, sans-serif,'Courier New', Courier, monospace;font-size: 14px;}
 header{width: 100vw;height: 18vh;position: fixed;top:0;background-color: #333;
     overflow: hidden;}
-
+.xsign{color:white;position:fixed;left:15px;
+       top:15px;}
 .kot h1{color:rgb(89, 227, 89);position: absolute; left: 50%; transform: translateX(-50%);
    top: 1vh;}
 .kot h2{color:white;position: absolute; left: 50%; transform: translateX(-50%);top: 7vh;}
