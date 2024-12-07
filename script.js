@@ -6,8 +6,10 @@
 
 
 function hisht(x) {
+  var opn=x;
+  chng('tafrit');
   window.open(
-    x, 
+    opn, 
     '_blank', 
     'width=760,height=600,top=100,left=100,resizable=yes,scrollbars=yes'
   );
