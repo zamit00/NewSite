@@ -56,12 +56,14 @@ body{
   margin-right: 2px;
 }
 .lbl{width: 250px;}
-#sugmadad,#datefrom,#dateto,#schom{
+#sugmadad,#datefrom,#dateto{
   width: 250px;
   height: 30px;
   font-size: 18px;
 }
-#schom{max-width: 240px;}
+
+#schom{max-width:120px;height:30px;
+    font-size: 18px;  }
 .btn{
   width: 100px;
   height: 30px;
