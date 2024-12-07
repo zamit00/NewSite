@@ -9,7 +9,7 @@ function hisht(x) {
   window.open(
     x, 
     '_blank', 
-    'width=800,height=600,top=100,left=100,resizable=yes,scrollbars=yes'
+    'width=760,height=600,top=100,left=100,resizable=yes,scrollbars=yes'
   );
 }
 
