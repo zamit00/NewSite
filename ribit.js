@@ -232,6 +232,10 @@ function hashev() {
             }
             var element=document.getElementById('dropdown-tkofa');
             element.style.display='flex';
+             var elementa=document.getElementById('dropdown-schom');
+            elementa.style.display='none';
+            var elementb=document.getElementById('dropdown-sug');
+            elementb.style.display='none';
         
         function hishuv(x,y,z,t){
             let hishuv = x + y;
