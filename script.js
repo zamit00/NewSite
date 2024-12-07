@@ -6,6 +6,7 @@
 
 
 function hisht(x) {
+  chng('tafrit');
   window.open(
     x, 
     '_blank', 
